@@ -24,10 +24,9 @@ def keyword():
         try:
           users.add(name)
           reddit.redditor(name).message(title, text)
+          time.sleep(40)
         except:
-          continue
-      print(f"u/{name}, comment body: {comment.body}")
-      time.sleep(40)
+            continue
     except:
       time.sleep(300)
       keyword()
