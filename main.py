@@ -12,7 +12,7 @@ import time
 users = set()
 
 def keyword():
-  for comment in reddit.subreddit("dropshipping+dropship+Dropshipping_Guide+Dropshipping101+Dropshipsupplier+DropshippingService").streeam.comments():
+  for comment in reddit.subreddit("dropshipping+dropship+Dropshipping_Guide+Dropshipping101+Dropshipsupplier+DropshippingService").stream.comments():
     try:
       name = comment.author.name
       title = f"Hello, {name}"
