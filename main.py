@@ -21,12 +21,9 @@ def keyword():
       if name in users:
         continue
       else:
-        try:
-          users.add(name)
-          reddit.redditor(name).message(title, text)
-          time.sleep(40)
-        except:
-            continue
+         users.add(name)
+         reddit.redditor(name).message(title, text)
+         time.sleep(40)
     except:
       time.sleep(300)
       keyword()
