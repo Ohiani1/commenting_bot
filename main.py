@@ -16,7 +16,7 @@ def keyword():
     try:
       name = comment.author.name
       title = f"Hello, {name}"
-      text = "You asked and we answered! As expereinced dropshippers, we know selling saturated products can eat into your profits.\n\nTo combat this problem, the Competiton Meter team has created a tool that helps you know if a product is untapped, competitive, or saturated! \n\nTo top it all off, we added a feature to the tool that helps users find the cheapest option for any product they want to sell. This will help you minimize your business expenses and increase your profit potential!! \n\nThe tool is a google chrome extension. If you would like to learn more about it, check out our website => https://competitionmeter.com/"
+      text = "You asked and we answered! As experienced dropshippers, we know selling saturated products can eat into your profits.\n\nTo combat this problem, the Competition Meter team has created a tool that helps you know if a product is untapped, competitive, or saturated! \n\nTo top it all off, we added a feature to the tool that helps users find the cheapest option for any product they want to sell. This will help you minimize your business expenses and increase your profit potential!! \n\nThe tool is a google chrome extension. If you would like to learn more about it, check out our website => https://competitionmeter.com/"
 
       if name in users:
         continue
